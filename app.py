@@ -41,13 +41,13 @@ API_KEY = os.getenv("OWM_API_KEY", "YOUR_API_KEY_HERE")
 def get_aqi_category(aqi):
     """Map AQI values to categories and advisories"""
     if aqi <= 50:
-        return "Good", "Air quality is satisfactory."
+        return "Good", "Air quality is satisfactory","individulas can go outside"
     elif aqi <= 100:
         return "Moderate", "Acceptable, but some pollutants may affect sensitive individuals."
     elif aqi <= 150:
         return "Unhealthy for Sensitive Groups", "Sensitive groups should reduce outdoor exertion."
     elif aqi <= 200:
-        return "Unhealthy", "Everyone may begin to experience health effects."
+        return "Unhealthy AQI", "Everyone may begin to experience health effects."
     elif aqi <= 300:
         return "Very Unhealthy", "Health warnings of emergency conditions."
     else:
