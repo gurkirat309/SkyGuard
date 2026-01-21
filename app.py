@@ -51,7 +51,7 @@ def get_aqi_category(aqi):
     elif aqi <= 300:
         return "Very Unhealthy", "Health warnings of emergency conditions."
     else:
-        return "Hazardous", "Serious health effects. Avoid all outdoor activity everyone."
+        return "Hazardous", "Serious health effects. Avoid all outdoor activity everyone. Stay indoor"
 
 def fetch_aqi_from_api(lat, lon):
     """Fetch current AQI data from OpenWeatherMap API"""
