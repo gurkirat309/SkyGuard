@@ -49,7 +49,7 @@ def get_aqi_category(aqi):
     elif aqi <= 200:
         return "Unhealthy AQI avoid outdoor activities", "Everyone may begin to experience health effects."
     elif aqi <= 300:
-        return "Very Unhealthy", "Health warnings of emergency conditions."
+        return "Very Unhealthy", "Health warnings of emergency conditions"
     else:
         return "Hazardous", "Serious health effects. Avoid all outdoor activity everyone. Stay indoor"
 
