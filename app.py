@@ -45,7 +45,7 @@ def get_aqi_category(aqi):
     elif aqi <= 100:
         return "Moderate", "Acceptable, but some pollutants may affect sensitive individuals."
     elif aqi <= 150:
-        return "Unhealthy for Sensitive Groups", "Sensitive groups should reduce outdoor exertion."
+        return "Unhealthy for Sensitive Groups", "Sensitive groups should reduce outdoor activities."
     elif aqi <= 200:
         return "Unhealthy AQI avoid outdoor activities", "Everyone may begin to experience health effects."
     elif aqi <= 300:
