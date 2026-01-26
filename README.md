@@ -67,6 +67,6 @@ project/
 - The app uses live API data for inference and historical data for training.
 - All code is modular and ready to run.
 
----
+
 
 **SkyGuard: Breathe Easy, Stay Informed!** 
