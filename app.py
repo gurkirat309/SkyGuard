@@ -36,7 +36,7 @@ except Exception as e:
     city_encoder = None
 
 # OpenWeatherMap API key
-API_KEY = os.getenv("OWM_API_KEY", "YOUR_API_KEY_HERE")
+API_KEY = os.getenv("OWM_API_KEY")
 
 def get_aqi_category(aqi):
     """Map AQI values to categories and advisories"""
