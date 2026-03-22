@@ -69,7 +69,7 @@ def fetch_aqi_from_api(lat, lon):
             
             return aqi_mapped, components
         else:
-            print(f"API Error: {response.status_code}")
+            print(f"API key Error: {response.status_code}")
             return None, None
             
     except Exception as e:
